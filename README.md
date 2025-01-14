@@ -1,51 +1,36 @@
-# Makeswift Next.js Starter
-
-## Demo
-
-https://makeswift-examples-basic-typescript.vercel.app/
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-This template contains a simple Next.js app integrated with [Makeswift](https://www.makeswift.com) so you can visually edit your Next.js pages.
-
-### Automatic Setup
-
-Use the Makeswift CLI to clone this repo and set everything up with a single command:
+First, run the development server:
 
 ```bash
-npx makeswift@latest init --example=basic-typescript
-```
-
-### Manual Setup
-
-Alternatively, you can set things up manually without using the CLI.
-
-Once you've cloned the repository, install the dependencies:
-
-```
-yarn install
-```
-
-Then, find your Makeswift's site API key in our site's setting and add it to your `.env.local` file:
-
-```
-MAKESWIFT_SITE_API_KEY=<your_makeswift_site_api_key>
-```
-
-Next, start your Next.js development server:
-
-```
+npm run dev
+# or
 yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Finally, update your Makeswift site's host URL in to your local development server (e.g., http://localhost:3000). Your site's host URL is found in your Makeswift site's settings.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
 
-To learn more about Next.js or Makeswift, take a look at the following resources:
+To learn more about Next.js, take a look at the following resources:
 
-- [Next.js](https://nextjs.org/) - Documentation and tutorials for Next.js
-- [Makeswift Docs](https://www.makeswift.com/docs) - Technical documentation for integrating Makeswift
-- [Makeswift Help Center](https://help.makeswift.com/) - Guides for using the Makeswift builder
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmakeswift%2Fmakeswift%2Ftree%2Fmain%2Fexamples%2Fbasic-typescript&project-name=makeswift-nextjs-starter&repository-name=makeswift-nextjs-starter&redirect-url=https%3A%2F%2Fapp.makeswift.com&integration-ids=oac_51ryd7Pob5ZsyTFzNzVvpsGq&external-id=spark)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
